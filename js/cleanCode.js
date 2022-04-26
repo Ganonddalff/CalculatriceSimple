@@ -1,6 +1,6 @@
 function calculer(operation) {
-    var val1 = Number($('#input1').val());
-    var val2 = Number($('#input2').val());
+    var val1 = Number($ ('#input1').val());
+    var val2 = Number($ ('#input2').val());
     var resultat = 0;
 
     switch (operation) {
