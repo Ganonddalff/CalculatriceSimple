@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>
-Calculator
-</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<script type="module" defer>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="">
 
+    <script src="./js/cleanCode.js"></script>
+    <script src="./lib/jquery.min.js"></script>
 
-
-</script>
 </head>
+
 <body>
-<input type="text" size="50" id="formula" name="formula">
-<button id="calc">Calc</button>
-<div id="result">
-</div>
+    <!--<input type="text" size="50" id="formula" name="formula">-->
+    <input class="nombre" id="input1" type="text" /> : nombre 1<br />
+    <input class="nombre" id="input2" type="text" /> : nombre 2<br />
+    <input class="nombre" id="resultat" type="text" /> : résultat<br />
+    <input value="+" id="btnAdd" type="button" />
+    <input value="-" id="btnMoins" type="button" />
+    <input value="*" id="btnMult" type="button" />
+    <input value="/" id="btnDiv" type="button" /><br />
+
+    <!--<button id="calc" onclick="calculer()">Calc</button>-->
+    <div class="nombre" id="result"></div>
 </body>
+
 </html>
